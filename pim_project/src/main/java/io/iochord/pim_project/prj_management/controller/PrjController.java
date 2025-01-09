@@ -30,14 +30,6 @@ public class PrjController {
         return prjService.updateProject(id, prjReqDto);
     }
 
-    /*
-    @DeleteMapping("/{id}")
-    public ResponseEntity<String> delete(@PathVariable("id") Long id){
-        prjService.delete(id);
-        return new ResponseEntity<>("삭제 완료!", HttpStatus.OK);
-    }
-    */
-
 
     //전체 리드 //페이지 기능도
     //삭제

@@ -108,14 +108,4 @@ public class PrjService {
         return null;
     }
 
-    /*
-    public void delete(Long id){
-        PimMPrj pimMPrj = new PimMPrj();
-        pimMPrj.setId(id);
-        prjRepository.delete(pimMPrj);
-    }
-     */
-
-
-
 }

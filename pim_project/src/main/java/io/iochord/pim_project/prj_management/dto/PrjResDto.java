@@ -21,6 +21,7 @@ public class PrjResDto {
     private Timestamp createdDt;
     private String status;
     private Timestamp modifiedDt;
+
     private List<ApqpResDto> apqpList;
 
 }

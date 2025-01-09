@@ -12,6 +12,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.sql.Timestamp;
 import java.util.List;
 
+
 @Data
 @Builder
 @NoArgsConstructor
@@ -40,4 +41,5 @@ public class PimMPrj {
 
     @OneToMany(mappedBy = "prjId")
     private List<PimMApqp> apqpList;
+
 }
